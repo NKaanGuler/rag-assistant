@@ -1,0 +1,10 @@
+# Foundry Local SDK 1.x — matches the CURRENT Microsoft Learn RAG tutorial (updated June 2026).
+# Note: 1.x renamed the import (foundry_local -> foundry_local_sdk) and runs models
+# in-process (no separate 'foundry service' needed).
+foundry-local-sdk>=1.2,<2
+openai>=2.0
+
+# Document readers for the docs/ folder (.pdf, .docx, .pptx; .txt/.md need nothing)
+pypdf>=4.0
+python-docx>=1.1
+python-pptx>=0.6.23

@@ -1,0 +1,19 @@
+# Virtual environment and Python caches
+.venv/
+__pycache__/
+*.pyc
+
+# Generated database (main.py rebuilds it automatically on first run)
+rag.db
+rag.db.building
+
+# Editor / tooling settings
+.vscode/
+pyrefly.toml
+
+# Local-only files (course material, not part of the project)
+*.docx
+
+# Knowledge-base documents: course material, not redistributed (keep the folder itself)
+docs/*
+!docs/.gitkeep
